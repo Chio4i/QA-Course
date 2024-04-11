@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Cosmos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Cosmos Explorer</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank">Mercury</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Venus" target="_blank">Venus</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Mars" target="_blank">Mars</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank">Jupiter</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">Saturn</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Uranus" target="_blank">Uranus</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Neptune" target="_blank">Neptune</a></li>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="intro-content">
+                <h2 class="glitch" data-text="Welcome to Cosmos Explorer">Welcome to Cosmos Explorer</h2>
+                <p class="intro-text">Embark on a breathtaking journey through our Solar System. Discover fascinating facts about each planet, from the scorching surface of Mercury to the mesmerizing rings of Saturn.</p>
+                <a href="#planets" class="btn">Start Exploring</a>
+            </div>
+        </section>
+        <section id="planets">
+            <div class="planet mercury" id="mercury">
+                <div class="planet-info">
+                    <h3 class="planet-title">Mercury</h3>
+                    <p class="planet-text">Mercury is the smallest and closest planet to the Sun in our solar system. It is a terrestrial planet with a heavily cratered surface, similar to the Moon. Mercury has no atmosphere and experiences extreme temperature variations, ranging from -180°C to 430°C.</p>
+                    <ul class="planet-facts">
+                        <li>Orbital Period: 88 days</li>
+                        <li>Known Moons: 0</li>
+                        <li>Interesting Fact: Mercury has the oldest known surface in the solar system, with some regions estimated to be over 4 billion years old.</li>
+                    </ul>
+                </div>
+                <img src="mercury-surface.png" alt="Mercury Surface" class="planet-image">
+            </div>
+            <div class="planet venus" id="venus">
+                <div class="planet-info">
+                    <h3 class="planet-title">Venus</h3>
+                    <p class="planet-text">Venus is the second planet from the Sun and is known for its thick, toxic atmosphere and scorching surface temperatures. It is the hottest planet in our solar system, with an average temperature of 462°C. Venus is also notable for its retrograde rotation, spinning slowly in the opposite direction of most planets.</p>
+                    <ul class="planet-facts">
+                        <li>Orbital Period: 225 days</li>
+                        <li>Known Moons: 0</li>
+                        <li>Interesting Fact: Venus is the only planet in our solar system to be named after a female figure from mythology.</li>
+                    </ul>
+                </div>
+                <img src="venus-clouds.png" alt="Venus Clouds" class="planet-image">
+            </div>
+            <!-- Add more planet sections for Earth, Mars, Jupiter, Saturn, Uranus, and Neptune -->
+        </section>
+        <section id="interesting-facts">
+            <h2 class="section-title">Did You Know?</h2>
+            <div class="fact-container">
+                <div class="fact">
+                    <img src="red-spot.jpg" alt="Jupiter's Great Red Spot" class="fact-image">
+                    <p class="fact-text">Jupiter's Great Red Spot is a storm larger than Earth, raging for over 400 years.</p>
+                </div>
+                <div class="fact">
+                    <img src="venus-rotation.jpg" alt="Venus Rotation" class="fact-image">
+                    <p class="fact-text">A day on Venus lasts longer than a year! Venus rotates so slowly that it takes 243 Earth days to complete one rotation.</p>
+                </div>
+                <div class="fact">
+                    <img src="saturn-density.jpg" alt="Saturn Density" class="fact-image">
+                    <p class="fact-text">Saturn is the least dense planet in our solar system. Its average density is less than that of water, meaning it could float in a bathtub if one were large enough!</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2 class="section-title">Gallery of the Cosmos</h2>
+            <div class="image-gallery">
+                <img src="galaxy.jpg" alt="Galaxy" class="gallery-image">
+                <img src="nebula.jpg" alt="Nebula" class="gallery-image">
+                <img src="planet-surface.jpg" alt="Planet Surface" class="gallery-image">
+                <img src="solar-system.jpg" alt="Solar System" class="gallery-image">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cosmos Explorer. Journey to the stars.</p>
+    </footer>
+</body>
+</html>
